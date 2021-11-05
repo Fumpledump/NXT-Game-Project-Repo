@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "OpenBciReaderApp/1.0.0": {
+        "dependencies": {
+          "brainflow": "4.7.1"
+        },
         "runtime": {
           "OpenBciReaderApp.dll": {}
         }
-      }
+      },
+      "brainflow/4.7.1": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "brainflow/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LTGMyfzZa6i9+6RJat+7gJjVT3rj+ocuMfzhbfz+094MXkQVWFAxIUorUh82MDUmcbjzxn99CkQnRSc3/YDrHQ==",
+      "path": "brainflow/4.7.1",
+      "hashPath": "brainflow.4.7.1.nupkg.sha512"
     }
   }
 }
